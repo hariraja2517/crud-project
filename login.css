@@ -1,0 +1,56 @@
+/* custom.css */
+body {
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px 30px;
+    max-width: 400px; /* Smaller width for the login page */
+    width: 85%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #0f0e0e;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #0c65e1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #89f7fe;
+}
+
+a {
+    color: #07397e;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
